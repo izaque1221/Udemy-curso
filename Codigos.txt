@@ -1,0 +1,61 @@
+TEXTO EM NEGRITO = 
+<strong></strong>
+
+TEXTO EM ITÁLICO = 
+<em></em>
+
+FORMATAR LETRAS COM ACENTO
+<meta charset="utf8"
+
+QUEBRA DE LINHA = break
+<br>
+
+LINHA HORIZONTAL = HORIZONTAL RULE
+
+<hr>
+
+
+*CÓDIGO PARA INSERIR IMAGEM NO SITE
+
+<img src="imagens/Ferrari.jpg" width="300" >
+
+width="" = para regular largura 
+
+height="" = para regular altura
+
+*CRIAÇÃO DE LINKS
+
+ <a href="AQUI SELECIONA O PROJETO">AQUI ESCREVE TEXTO DO HIPERLINK(LINK)</a>
+
+a = ancor 
+href = hiperlink
+
+*CRIAÇÃO DE TABELHA
+
+Dentro da TAG BODY, criar a seguinte tag:
+
+<table border=""></table> = tabela
+
+border = para escolher tamanho da borda
+
+DENTRO DE TABLE
+
+<tr></tr> = table row = linha da tabela
+
+DENTRO DE TR 
+
+<td></td> = table date = dados da tabela
+	
+	Dentro do <td>, é possível adicionar um atributo para agrupar mais de uma coluna
+	<td colspan=""> extensão da coluna
+	
+	Dentro do <td>, é possível adicionar um atributo para agrupar mais de uma linha
+	<td rowspan=""> extensão da linha
+
+<th></th> = Table Header = cabeçalho da tabela
+
+*FORMULÁRIO TAGS
+
+<form></form> --> primeira tag
+
+dentro do form: <input type="" name=""> --> type é tipo de documento e name é forma de recuperar a informação// input significa entrada de dados

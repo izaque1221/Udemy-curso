@@ -1,0 +1,73 @@
+
+body{
+	background: #F5DA81;
+	font: 16px Arial, Helvetica, sans-serif;
+
+}
+
+
+#foto{
+	width: 250px;
+	height: 250px;
+}
+
+.titulo{
+	background: white;
+	text-align: center;
+	border: 3px dotted ;
+	padding: 15px;
+	
+}
+
+.imagens{
+	width: 300px;
+}
+
+.centralizar{
+	text-align: center;
+}
+
+.galeria{
+	background: white;
+	width: 280px;
+	margin: 15px;
+	padding: 5px;
+	float: left;
+}
+
+/* FORMATAÇÃO DOS LINKS */
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: black;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{
+	color: #F5DA81;
+	background: #FFF;
+	text-decoration: none;
+}
+/*------------------LAYOUT--------------------*/
+
+#area-cabecalho{
+	padding: 15px;
+	text-align: center;
+}
+/*--------------------------------------*/
+
+h2{
+	padding: 20px;
+	clear: both;
+}

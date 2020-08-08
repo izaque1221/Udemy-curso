@@ -1,0 +1,54 @@
+/*	/*<!--SELETOR UNIVERSAL-->*/
+/*
+*{
+	border: 1px solid red;
+} */
+
+	/*<!--SELETOR DE TEXTO-->*/
+/*
+h1{
+	color: blue;
+}*/
+/*
+.verde{
+	color: green;
+}
+
+p.verde{
+	color: green;
+}
+*/
+/*
+/*<!--SELETOR DE ID-->*/
+/*
+#cabecalho{
+	border: 1px solid blue;
+}*/
+
+
+/*<!--SELETOR DE FILHOS DE LI (LINK)-->*/
+/*
+li>a{
+	color: green;
+	text-decoration: none;
+}
+
+/*<!--SELETOR DE DESCENDENTES-->*/
+/*
+p a{
+	color: green;
+}
+*/
+
+/*<!-- SELETOR DE IRMÃO ADJACENTE -->*/
+/*
+h1+p{
+	color: red;
+}
+*/
+
+/*<!-- SELETOR DE IRMÃO GERAL -->*/
+
+h1 ~ p {
+	color: orange;
+}

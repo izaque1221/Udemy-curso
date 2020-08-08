@@ -1,0 +1,7 @@
+Inline style = Utilizar CSS direto na TAG
+
+Internal style sheet = 
+
+
+
+CLASSES: 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamentos: Estático, Relativo, Absoluto e Fixo</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			body{
+				background: #007fc7;
+			}
+
+			#container{
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 10px;
+				position: relative;
+			}
+
+			h1{
+				position: static;
+			}
+
+			p{
+				width: 400px
+			}
+
+			.absolute{
+				background: #f2f2f2;
+				border: 1px solid red;
+				position: absolute;
+				top: 0px;
+				right: 20px;
+			}
+
+			.relative{
+				border: 1px solid red;
+				position: relative;
+				/*Propriedades de posicionamento relativo: top, bottom, right e left*/
+				top: 20px;
+				right: 0px;
+				bottom: 0px;
+				left: 0px;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div id="container">
+			
+			<h1>Posicionamentos</h1>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a est tellus. Sed interdum, massa dapibus hendrerit vulputate, lacus massa accumsan ipsum, et scelerisque nisl felis vel magna. Pellentesque viverra porttitor elementum. Aliquam placerat maximus metus non dignissim. In vestibulum eros ut vulputate ultricies. Donec quis elit tempus, interdum massa ut, consectetur nulla. Donec tortor dui, sodales at suscipit id, euismod non nisi. Sed ornare velit in purus gravida, vitae tempus dui fermentum. Maecenas eu laoreet neque.
+			</p>
+
+			<p class="absolute">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a est tellus. Sed interdum, massa dapibus hendrerit vulputate, lacus massa accumsan ipsum, et scelerisque nisl felis vel magna. Pellentesque viverra porttitor elementum. Aliquam placerat maximus metus non dignissim. In vestibulum eros ut vulputate ultricies. Donec quis elit tempus, interdum massa ut, consectetur nulla. Donec tortor dui, sodales at suscipit id, euismod non nisi. Sed ornare velit in purus gravida, vitae tempus dui fermentum. Maecenas eu laoreet neque.
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a est tellus. Sed interdum, massa dapibus hendrerit vulputate, lacus massa accumsan ipsum, et scelerisque nisl felis vel magna. Pellentesque viverra porttitor elementum. Aliquam placerat maximus metus non dignissim. In vestibulum eros ut vulputate ultricies. Donec quis elit tempus, interdum massa ut, consectetur nulla. Donec tortor dui, sodales at suscipit id, euismod non nisi. Sed ornare velit in purus gravida, vitae tempus dui fermentum. Maecenas eu laoreet neque.
+			</p>
+
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,45 @@
+/* BARRA DE NAVEGAÇÃO */
+/*
+ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+/*
+/*
+li{
+	padding: 5px 20px;
+	background: url('AdvancedImagens/seta.png') no-repeat left center;
+}
+*/
+ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(AdvancedImagens/menu.png) no-repeat left bottom;
+}
+
+a:hover{
+	background-position: right bottom;
+	background-color: #f99200; /* CASO A IMAGEM NÃO CARREGUE */
+	color: #fff;
+}
+
+ #home #navegacao .home a,
+ #sobre #navegacao .sobre a{
+ 	background-position: right bottom;
+	background-color: #f99200; /* CASO A IMAGEM NÃO CARREGUE */
+	color: #fff;
+}
